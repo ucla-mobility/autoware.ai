@@ -8,8 +8,8 @@ ARG ROS2_PACKAGES=""
 ENV ROS2_PACKAGES=${ROS2_PACKAGES}
 
 COPY --chown=carma . /home/carma/autoware.ai
-RUN /home/carma/autoware.ai/docker/checkout.bash && \
-    /home/carma/autoware.ai/docker/install.sh
+RUN /home/carma/autoware.ai/docker/checkout.bash
+RUN ./home/carma/autoware.ai/docker/install.sh
 
 FROM base_image
 
