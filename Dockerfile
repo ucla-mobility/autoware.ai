@@ -29,3 +29,5 @@ LABEL org.label-schema.build-date=${BUILD_DATE}
 
 COPY --chown=carma --from=build /opt/autoware.ai/ros/install /opt/autoware.ai/ros/install
 COPY --chown=carma --from=build /opt/autoware.ai/ros/install_ros2 /opt/autoware.ai/ros/install_ros2
+
+ENTRYPOINT [ "/home/carma/.base-image/entrypoint.sh" ]
