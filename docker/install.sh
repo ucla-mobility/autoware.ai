@@ -14,6 +14,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
+source /etc/profile.d/init-env.sh
 
 ###
 # ROS 1 Build
