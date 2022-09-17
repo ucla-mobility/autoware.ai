@@ -14,6 +14,8 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
+source /home/carma/.base-image/init-env.sh
+
 ###
 # ROS 1 Build
 ###
