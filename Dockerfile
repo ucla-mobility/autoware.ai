@@ -1,4 +1,4 @@
-FROM usdotfhwastoldev/carma-base:buildtime AS base_image
+FROM usdotfhwastoldev/carma-base:gha AS base_image
 
 FROM base_image AS build
 
