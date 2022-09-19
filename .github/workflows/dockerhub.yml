@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: usdotfhwastoldev/${{ github.repository }}:${{ github.ref_name }}
+          tags: usdotfhwastoldev/${{ github.event.repository.name }}:${{ github.ref_name }}
